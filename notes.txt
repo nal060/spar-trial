@@ -1,0 +1,34 @@
+ What would elevate it:
+
+  1. Ask a sharper question. Instead of "does LDA     
+  work?" (Goodfire already showed it does), ask       
+  something like: "Do behaviors surfaced by LDA       
+  between SFT and RLVR checkpoints differ
+  qualitatively from those surfaced between base and  
+  SFT checkpoints?" That's a comparative analysis with
+   actual insight about what RLVR specifically        
+  introduces.
+  2. Improve the attribution validation. Right now you
+   have no way to know if attribution results are     
+  meaningful. You could do a simple sanity check:     
+  attribute benign outputs too, then test whether     
+  harmful outputs have systematically different       
+  attribution patterns than benign ones.
+  3. Go beyond keyword classification. The heuristic  
+  classifier is a real weakness. If you can't use the 
+  Claude API, even a small open classifier (like a    
+  toxicity model from HuggingFace) would be more      
+  credible.
+  4. Vary the checkpoint pairs. OLMo has intermediate 
+  checkpoints. Comparing multiple pairs could reveal  
+  when during training certain behaviors get
+  introduced, which is a more interesting finding than
+   just "LDA amplifies stuff."
+
+  The project as-is reads like a tutorial or
+  replication exercise. For a SPAR trial, the
+  evaluators likely want to see research taste — that 
+  you made choices about what to investigate, not just
+   ran someone else's method end-to-end. I'd pick one 
+  of the extensions above and make it the core        
+  contribution.
