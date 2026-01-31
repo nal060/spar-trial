@@ -1,0 +1,268 @@
+======================================================================
+PHASE 3.7: COMPARING ATTRIBUTION METHODS
+======================================================================
+Comparing top-25 flagged documents per method
+
+
+Output 1:
+  Top-25 overlap:
+    Activation-Gradient: 10/25 (40%)
+    Activation-LLM Judge: 21/25 (84%)
+    Gradient-LLM Judge: 10/25 (40%)
+  Rank correlation (Spearman):
+    Activation-Gradient: 0.206
+    Activation-LLM Judge: 0.129
+
+Output 2:
+  Top-25 overlap:
+    Activation-Gradient: 11/25 (44%)
+    Activation-LLM Judge: 24/25 (96%)
+    Gradient-LLM Judge: 11/25 (44%)
+  Rank correlation (Spearman):
+    Activation-Gradient: 0.337
+    Activation-LLM Judge: -0.099
+
+Output 3:
+  Top-25 overlap:
+    Activation-Gradient: 9/25 (36%)
+    Activation-LLM Judge: 22/25 (88%)
+    Gradient-LLM Judge: 8/25 (32%)
+  Rank correlation (Spearman):
+    Activation-Gradient: 0.057
+    Activation-LLM Judge: 0.361
+
+Output 4:
+  Top-25 overlap:
+    Activation-Gradient: 5/25 (20%)
+    Activation-LLM Judge: 22/25 (88%)
+    Gradient-LLM Judge: 7/25 (28%)
+  Rank correlation (Spearman):
+    Activation-Gradient: 0.072
+    Activation-LLM Judge: -0.024
+
+Output 5:
+  Top-25 overlap:
+    Activation-Gradient: 5/25 (20%)
+    Activation-LLM Judge: 20/25 (80%)
+    Gradient-LLM Judge: 7/25 (28%)
+  Rank correlation (Spearman):
+    Activation-Gradient: 0.098
+    Activation-LLM Judge: 0.416
+
+Output 6:
+  Top-25 overlap:
+    Activation-Gradient: 10/25 (40%)
+    Activation-LLM Judge: 23/25 (92%)
+    Gradient-LLM Judge: 10/25 (40%)
+  Rank correlation (Spearman):
+    Activation-Gradient: 0.248
+    Activation-LLM Judge: 0.398
+
+Output 7:
+  Top-25 overlap:
+    Activation-Gradient: 2/25 (8%)
+    Activation-LLM Judge: 22/25 (88%)
+    Gradient-LLM Judge: 2/25 (8%)
+  Rank correlation (Spearman):
+    Activation-Gradient: -0.070
+    Activation-LLM Judge: 0.036
+
+Output 8:
+  Top-25 overlap:
+    Activation-Gradient: 7/25 (28%)
+    Activation-LLM Judge: 21/25 (84%)
+    Gradient-LLM Judge: 6/25 (24%)
+  Rank correlation (Spearman):
+    Activation-Gradient: 0.144
+    Activation-LLM Judge: 0.065
+
+Output 9:
+  Top-25 overlap:
+    Activation-Gradient: 4/25 (16%)
+    Activation-LLM Judge: 23/25 (92%)
+    Gradient-LLM Judge: 3/25 (12%)
+  Rank correlation (Spearman):
+    Activation-Gradient: -0.088
+    Activation-LLM Judge: 0.372
+
+Output 10:
+  Top-25 overlap:
+    Activation-Gradient: 8/25 (32%)
+    Activation-LLM Judge: 22/25 (88%)
+    Gradient-LLM Judge: 9/25 (36%)
+  Rank correlation (Spearman):
+    Activation-Gradient: 0.146
+    Activation-LLM Judge: 0.116
+
+Output 11:
+  Top-25 overlap:
+    Activation-Gradient: 6/25 (24%)
+    Activation-LLM Judge: 24/25 (96%)
+    Gradient-LLM Judge: 7/25 (28%)
+  Rank correlation (Spearman):
+    Activation-Gradient: 0.102
+    Activation-LLM Judge: 0.479
+
+Output 12:
+  Top-25 overlap:
+    Activation-Gradient: 6/25 (24%)
+    Activation-LLM Judge: 23/25 (92%)
+    Gradient-LLM Judge: 5/25 (20%)
+  Rank correlation (Spearman):
+    Activation-Gradient: 0.008
+    Activation-LLM Judge: 0.281
+
+Output 13:
+  Top-25 overlap:
+    Activation-Gradient: 7/25 (28%)
+    Activation-LLM Judge: 23/25 (92%)
+    Gradient-LLM Judge: 7/25 (28%)
+  Rank correlation (Spearman):
+    Activation-Gradient: 0.175
+    Activation-LLM Judge: 0.152
+
+Output 14:
+  Top-25 overlap:
+    Activation-Gradient: 7/25 (28%)
+    Activation-LLM Judge: 21/25 (84%)
+    Gradient-LLM Judge: 4/25 (16%)
+  Rank correlation (Spearman):
+    Activation-Gradient: -0.071
+    Activation-LLM Judge: 0.253
+
+Output 15:
+  Top-25 overlap:
+    Activation-Gradient: 6/25 (24%)
+    Activation-LLM Judge: 24/25 (96%)
+    Gradient-LLM Judge: 6/25 (24%)
+  Rank correlation (Spearman):
+    Activation-Gradient: 0.026
+    Activation-LLM Judge: 0.493
+
+Output 16:
+  Top-25 overlap:
+    Activation-Gradient: 8/25 (32%)
+    Activation-LLM Judge: 22/25 (88%)
+    Gradient-LLM Judge: 8/25 (32%)
+  Rank correlation (Spearman):
+    Activation-Gradient: 0.063
+    Activation-LLM Judge: 0.345
+
+Output 17:
+  Top-25 overlap:
+    Activation-Gradient: 8/25 (32%)
+    Activation-LLM Judge: 21/25 (84%)
+    Gradient-LLM Judge: 7/25 (28%)
+  Rank correlation (Spearman):
+    Activation-Gradient: 0.256
+    Activation-LLM Judge: 0.153
+
+Output 18:
+  Top-25 overlap:
+    Activation-Gradient: 4/25 (16%)
+    Activation-LLM Judge: 22/25 (88%)
+    Gradient-LLM Judge: 3/25 (12%)
+  Rank correlation (Spearman):
+    Activation-Gradient: -0.007
+    Activation-LLM Judge: 0.528
+
+Output 19:
+  Top-25 overlap:
+    Activation-Gradient: 10/25 (40%)
+    Activation-LLM Judge: 23/25 (92%)
+    Gradient-LLM Judge: 9/25 (36%)
+  Rank correlation (Spearman):
+    Activation-Gradient: 0.308
+    Activation-LLM Judge: -0.106
+
+Output 20:
+  Top-25 overlap:
+    Activation-Gradient: 11/25 (44%)
+    Activation-LLM Judge: 24/25 (96%)
+    Gradient-LLM Judge: 11/25 (44%)
+  Rank correlation (Spearman):
+    Activation-Gradient: 0.381
+    Activation-LLM Judge: -0.127
+
+Output 21:
+  Top-25 overlap:
+    Activation-Gradient: 5/25 (20%)
+    Activation-LLM Judge: 22/25 (88%)
+    Gradient-LLM Judge: 6/25 (24%)
+  Rank correlation (Spearman):
+    Activation-Gradient: 0.147
+    Activation-LLM Judge: 0.183
+
+Output 22:
+  Top-25 overlap:
+    Activation-Gradient: 8/25 (32%)
+    Activation-LLM Judge: 21/25 (84%)
+    Gradient-LLM Judge: 7/25 (28%)
+  Rank correlation (Spearman):
+    Activation-Gradient: 0.164
+    Activation-LLM Judge: 0.202
+
+Output 23:
+  Top-25 overlap:
+    Activation-Gradient: 6/25 (24%)
+    Activation-LLM Judge: 22/25 (88%)
+    Gradient-LLM Judge: 7/25 (28%)
+  Rank correlation (Spearman):
+    Activation-Gradient: 0.146
+    Activation-LLM Judge: 0.413
+
+Output 24:
+  Top-25 overlap:
+    Activation-Gradient: 12/25 (48%)
+    Activation-LLM Judge: 23/25 (92%)
+    Gradient-LLM Judge: 11/25 (44%)
+  Rank correlation (Spearman):
+    Activation-Gradient: 0.172
+    Activation-LLM Judge: 0.123
+
+Output 25:
+  Top-25 overlap:
+    Activation-Gradient: 5/25 (20%)
+    Activation-LLM Judge: 21/25 (84%)
+    Gradient-LLM Judge: 6/25 (24%)
+  Rank correlation (Spearman):
+    Activation-Gradient: 0.032
+    Activation-LLM Judge: 0.068
+
+======================================================================
+AGGREGATE STATISTICS
+======================================================================
+
+Total unique docs flagged per method (across all outputs):
+  activation: 332 docs
+  gradient: 359 docs
+  llm_judge: 327 docs
+
+Set analysis:
+  Union (any method): 564 docs
+  Intersection (ALL methods agree): 136 docs
+  Activation-only: 24 docs
+  Gradient-only: 201 docs
+  LLM Judge-only: 21 docs
+
+Pairwise Jaccard similarity:
+  activation vs gradient: 27.26%
+  activation vs llm_judge: 81.54%
+  gradient vs llm_judge: 27.04%
+
+Average Spearman correlations:
+  Activation-Gradient: 0.122
+  Activation-LLM Judge: 0.208
+
+======================================================================
+INTERPRETATION
+======================================================================
+
+- High overlap/correlation: Methods agree on what's relevant
+- Low overlap/correlation: Methods capture different signals (interesting!)
+- Unanimous docs: High-confidence attributions (all methods agree)
+- Method-only docs: Each method's unique contribution
+
+The key question (answered in Phase 4):
+Which method's flagged docs, when removed, most reduces the harmful behavior?
+
